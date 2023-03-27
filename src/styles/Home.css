@@ -1,0 +1,86 @@
+.container-home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1320px;
+  margin: 61px auto;
+  gap: 32px;
+}
+
+.header-component {
+  position: absolute;
+  top: 199px;
+  left: 350px;
+}
+
+.main-des {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #db6b97;
+}
+
+.home-header {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  color: #2d2d2d;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.container-content {
+  position: relative;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-schedules {
+  margin: auto;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.main-desc {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #db6b97;
+}
+
+.container-detail {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  position: relative;
+}
+
+.schedule {
+  position: relative;
+}
+
+.detail-concept {
+  margin: auto;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.mine {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #db6b97;
+}
+
+.schedule-component {
+  margin: auto;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}

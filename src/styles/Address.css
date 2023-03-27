@@ -1,0 +1,116 @@
+.address-compound {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.address-component {
+  width: 70%;
+  gap: 96px;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.address-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.address-icon {
+  margin-right: 16px;
+}
+
+.address-header {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  color: #2d2d2d;
+  margin-right: 40px;
+}
+
+.address-btn {
+  padding: 12px 24px;
+  width: 181px;
+  height: 48px;
+  border: 1px solid #db6b97;
+  border-radius: 8px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #db6b97;
+  background: white;
+}
+
+.address-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 10px;
+  width: 548px;
+  height: 220px;
+  border: 1px solid #d2d2d2;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.addressStore {
+  display: flex;
+  gap: 16px;
+}
+
+.address-name {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  color: #2d2d2d;
+}
+
+.icon-container {
+  margin-left: 270px;
+  display: flex;
+  gap: 16px;
+  font-size: 22px;
+  color: #737373;
+}
+
+.name-btn {
+  padding: 2px 4px;
+  width: 44px;
+  height: 20px;
+  background-color: white;
+  border-radius: 4px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.green {
+  border: 1px solid #2dc071;
+  color: #2dc071;
+}
+
+.yellow {
+  border: 1px solid #efaf00;
+  color: #efaf00;
+}
+
+.lines {
+    position: absolute;
+    width: 820px;
+    height: 0px;
+    left: 542px;
+    top: 589px;
+    border: 1px solid #d2d2d2;
+    transform: rotate(90deg);
+  }
+
+.divider {
+    width: 528px;
+    height: 715px;
+    margin: auto;
+  }

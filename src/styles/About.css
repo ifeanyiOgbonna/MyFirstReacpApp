@@ -1,0 +1,61 @@
+.about-component {
+  display: flex;
+  gap: 170px;
+}
+
+.about-concept {
+  width: 601px;
+  margin: auto;
+}
+
+.about-header {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 64px;
+  color: #2d2d2d;
+  margin-bottom: 40px;
+}
+
+.about-detail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #737373;
+  margin-bottom: 15px;
+}
+
+.about-sub {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #737373;
+  margin-bottom: 96px;
+}
+
+.about-rate {
+  display: flex;
+  /* align-items: center; */
+  gap: 96px;
+}
+
+.rates {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 64px;
+  text-align: justify;
+  color: #2d2d2d;
+}
+
+.rates-des {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify;
+  color: #db6b97;
+}
+
+.about-img {
+    width: 640px;
+}

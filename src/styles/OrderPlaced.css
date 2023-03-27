@@ -1,0 +1,48 @@
+.order-place {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 55px;
+}
+
+.order-place-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.order-place-header {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 64px;
+  text-align: justify;
+  color: #db6b97;
+}
+
+.compliment {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.orderPlace-detail {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+  color: #2d2d2d;
+}
+
+.car {
+  margin-bottom: 64px;
+}
+
+.final-detail {
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 24px;
+  color: #2d2d2d;
+}

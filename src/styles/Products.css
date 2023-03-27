@@ -1,0 +1,46 @@
+.price-detail-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.price-detail-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.price-detail-rate {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2d2d2d;
+}
+
+.price-detail-rates {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2dc071;
+}
+
+hr {
+  color: #d2d2d2;
+  margin-bottom: 24px;
+}
+
+.price-detail-total {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737373;
+}
+
+.price-detail-set {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #db6b97;
+}
