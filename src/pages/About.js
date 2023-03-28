@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/About.css"
-import { Link } from 'react-router-dom';
 import { Header } from "../component/Header";
 import lady from "../images/image bac.png"
 
@@ -38,7 +37,7 @@ function About() {
                         </div>
 
                     </div>
-                    <img src={lady} alt='image' className='about-img'/>
+                    <img src={lady} alt='img' className='about-img'/>
                 </div>
 
             </div>
