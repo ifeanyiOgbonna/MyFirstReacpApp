@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "../styles/Login.css"
+import  "../styles/Login.css"
 import Logo from "../images/Frame.png";
 import Img from "../images/Illustration.png"
 import { AiOutlineEye } from "react-icons/ai"
@@ -12,7 +12,7 @@ function Login() {
                 <div className='container'>
                     <div className='container-box'>
                       <Link to="/"><img src={Logo} alt="logo" className='logo-img' /></Link>
-                        <img src={Img} alt='image' className='background-img' />
+                        <img src={Img} alt='img' className='background-img' />
                     </div>
                 </div>
 

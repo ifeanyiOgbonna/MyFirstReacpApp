@@ -12,7 +12,7 @@ function Signup() {
                 <div className='container'>
                     <div className='container-box'>
                       <Link to="/"><img src={Logo} alt="logo" className='logo-img' /></Link>  
-                        <img src={Img} alt='image' className='background-img' />
+                        <img src={Img} alt='imag' className='background-img' />
                     </div>
                 </div>
 

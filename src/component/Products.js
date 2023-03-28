@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/Products.css"
-import Close from "../images/close.png"
+
 
 function Products(props) {
     return (

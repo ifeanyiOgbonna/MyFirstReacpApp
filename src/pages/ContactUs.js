@@ -1,6 +1,5 @@
 import React from 'react'
 import "../styles/ContactUs.css"
-import { Link } from 'react-router-dom';
 import { Header } from '../component/Header';
 import point from "../images/point.png";
 import call from "../images/call.png";
