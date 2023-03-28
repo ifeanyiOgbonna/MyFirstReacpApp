@@ -13,7 +13,7 @@ function Home() {
             <Header />
             <div className='container-home'>
                 <div className='main-home'>
-                    <img src={data} alt="picture" />
+                    <img src={data} alt="goat" />
                     <div className='header-component'>
                         <p className='main-des'>Brands Everyone’s Crushing on</p>
                         <h1 className='home-header'>Explore All<BsArrowRight className='header-icon' /></h1>
