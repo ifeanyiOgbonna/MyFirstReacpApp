@@ -1,8 +1,7 @@
 import React from 'react'
 import "../styles/Home.css"
-import { Link } from 'react-router-dom';
 import { Header } from '../component/Header';
-import Img from "../images/image 1.png"
+import data from "../images/image 1.png"
 import Image from "../images/image 6.png"
 import { BsArrowRight } from "react-icons/bs"
 import Image2 from "../images/image 10.png"
@@ -14,7 +13,7 @@ function Home() {
             <Header />
             <div className='container-home'>
                 <div className='main-home'>
-                    <img src={Img} alt="picture" />
+                    <img src={data} alt="picture" />
                     <div className='header-component'>
                         <p className='main-des'>Brands Everyone’s Crushing on</p>
                         <h1 className='home-header'>Explore All<BsArrowRight className='header-icon' /></h1>
