@@ -26,7 +26,7 @@ function Shop() {
                         </div>
                     </div>
 
-                    <div className='shop-concept'>
+                    <div className='shop-conc'>
                         <img src={shop2} alt="woman" />
                         <div className='item-container'>
                             <button className='shop-item'> <Link to="/Woman" className='try'>WOMAN</Link></button>
@@ -51,7 +51,6 @@ function Shop() {
                         </div>
 
                         <div className='description-details'>
-
                             <div className='dest'>
                                 <img src={shop5} alt="Beauty" />
                                 <div className='item-cons top'>

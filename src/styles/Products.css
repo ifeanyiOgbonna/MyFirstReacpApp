@@ -44,3 +44,25 @@ hr {
   line-height: 24px;
   color: #db6b97;
 }
+
+@media screen and (max-width: 1440px) {
+  hr {
+    margin-bottom: 17px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  hr {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  hr {
+    margin: 20px;
+  }
+
+  .address-content {
+    margin-bottom: 48px;
+  }
+}

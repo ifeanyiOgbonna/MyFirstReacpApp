@@ -7,3 +7,47 @@
   margin-top: 64px;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 1440px) {
+  .section-text {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .section-text {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section-text {
+    margin-left: 127px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .section-text {
+    width: 120%;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .section-text {
+    width: 149%;
+    margin-left: 22px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-text {
+    width: 157%;
+  }
+}
+
+@media screen and (max-width: 360px){
+ .section-text{
+  width: 168%;
+ }
+}

@@ -57,5 +57,108 @@
 }
 
 .about-img {
-    width: 640px;
+  width: 664px;
+}
+
+@media screen and (max-width: 1440px) {
+  .about-component {
+    gap: 117px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .about-component {
+    gap: 18px;
+    width: 98%;
+    margin: auto;
+  }
+
+  .about-img {
+    width: 530px;
+  }
+
+  .about-rate {
+    gap: 79px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .about-component {
+    gap: 45px;
+  }
+
+  .about-concept {
+    width: 42%;
+  }
+
+  .about-rate {
+    gap: 64px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .about-concept {
+    width: 94%;
+    margin-top: 80px;
+  }
+
+  .about-detail {
+    margin-bottom: 32px;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .about-rate {
+    gap: 155px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-img {
+    display: none;
+  }
+
+  .about-concept {
+    width: 92%;
+    margin-top: 73px;
+  }
+
+  .about-detail {
+    margin-bottom: 34px;
+  }
+
+  .about-rate {
+    gap: 127px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .about-concept {
+    width: 94%;
+  }
+  .about-header {
+    margin-top: 20px;
+  }
+
+  .about-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .about-rate {
+    flex-direction: column;
+    gap: 52px;
+  }
+
+  .rate-des {
+    font-size: 14px;
+  }
+
+  .about-concept {
+    width: 93%;
+  }
 }

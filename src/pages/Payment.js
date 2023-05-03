@@ -3,21 +3,24 @@ import "../styles/Payment.css"
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { Header } from '../component/Header';
 import frame from "../images/Frame 18.png";
-import { Link } from 'react-router-dom';
-import Arrow from "../images/arrow.png"
+import { Button } from '../component/Button'
 import Products from '../component/Products';
 import Amazon from "../images/Amazon.png";
 import plogo from "../images/Plogo.png";
 import pay from "../images/pay.png";
+import {Link} from "react-router-dom"
 
 function Payment() {
+
     return (
         <div>
             <Header />
             <div className='payment-container'>
                 <div className='payment-component'>
                     <div className='address-content'>
-                        <AiOutlineArrowLeft className='address-icon' />
+                        <Link to="/address" className='address-icon'>
+                            <AiOutlineArrowLeft />
+                        </Link>
                         <h1 className='address-header'>SELECT PAYMENT OPTION</h1>
                     </div>
 
@@ -46,20 +49,12 @@ function Payment() {
                 </div>
 
                 <div className='divider'>
-
                     <div className='price-detail-component'>
                         <h2 className='price-detail-header'>PRICE DETAILS (2 ITEMS)</h2>
                         <Products priceDetailRate={"Rs. 5,598"} priceDetailRates={"-Rs. 809"} priceDetailPrice={"Rs. 0"}
                             priceDetailRat={"Free"} priceDetailSet={"Rs. 4,789"} />
                     </div>
-                    <div className='order-container'>
-                        <div className='payment-sum'>
-                            <button className='order-btn'>
-                                <Link to="/OrderPlaced" className='btn-link'>Pay and Place Order</Link>
-                            </button>
-                            <img src={Arrow} alt="icon" />
-                        </div>
-                    </div>
+                    <Button text="Pay and Place Order" Link="/OrderPlaced" />
                 </div>
             </div>
         </div>

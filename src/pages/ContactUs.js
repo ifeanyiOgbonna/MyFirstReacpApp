@@ -5,10 +5,11 @@ import point from "../images/point.png";
 import call from "../images/call.png";
 import mail from "../images/mail.png";
 import later from "../images/later.png";
-import fill from "../images/fill.png";
-import vector1 from "../images/Vector (1).png";
 import vector2 from "../images/Vector (2).png";
 import draw from "../images/Draw.png";
+import { AiFillLinkedin } from "react-icons/ai";
+import { BsMedium } from "react-icons/bs";
+import { Link } from "react-router-dom"
 
 function ContactUs() {
     return (
@@ -51,13 +52,21 @@ function ContactUs() {
 
                         <div className='schedule-item'>
                             <div className='scene'>
-                                <img src={fill} alt="icon" />
-                                <img src={vector1} alt="icon" />
-                                <img src={vector2} alt="icon" />
+                                <Link to="https://Linkedin.com">
+                                    <AiFillLinkedin className='linked' />
+                                </Link>
+
+                                <Link to="https://medium.com">
+                                    <BsMedium className='linked' />
+                                </Link>
+
+                                <Link to="https://twitter.com">
+                                    <img src={vector2} alt="icon" />
+                                </Link>
                             </div>
                         </div>
 
-                        <img src={draw} alt="icon" className='boxes'/>
+                        <img src={draw} alt="icon" className='boxes' />
                     </div>
                 </div>
             </div>

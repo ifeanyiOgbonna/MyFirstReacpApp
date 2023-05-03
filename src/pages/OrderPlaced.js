@@ -3,8 +3,8 @@ import "../styles/OrderPlaced.css"
 import { Header } from "../component/Header";
 import good from "../images/Good.png";
 import layer from "../images/Layer2.png"
-import { Link } from "react-router-dom"
-import Arrow from "../images/arrow.png"
+import { Button } from "../component/Button";
+
 
 
 function OrderPlaced() {
@@ -26,14 +26,7 @@ function OrderPlaced() {
         <p className='final-detail'> Estimated Delivery </p>
         <p className='final-detail'>Monday, 09th January, 2023</p>
 
-        <div className='order-container'>
-          <div className='payment-sum'>
-            <button className='order-btn'>
-              <Link to="/" className='btn-link'>Continue Shopping</Link>
-            </button>
-            <img src={Arrow} alt="icon" />
-          </div>
-        </div>
+       <Button text="Continue Shopping" Link="/"/>
       </div>
     </div>
   )

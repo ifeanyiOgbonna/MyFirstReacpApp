@@ -19,6 +19,7 @@
 
 .address-icon {
   margin-right: 16px;
+  color: black;
 }
 
 .address-header {
@@ -100,17 +101,192 @@
 }
 
 .lines {
-    position: absolute;
-    width: 820px;
-    height: 0px;
-    left: 542px;
-    top: 589px;
-    border: 1px solid #d2d2d2;
-    transform: rotate(90deg);
-  }
+  position: absolute;
+  width: 820px;
+  height: 0px;
+  left: 542px;
+  top: 589px;
+  border: 1px solid #d2d2d2;
+  transform: rotate(90deg);
+}
 
 .divider {
-    width: 528px;
-    height: 715px;
+  width: 528px;
+  height: 715px;
+  margin: auto;
+}
+@media screen and (max-width: 1440px) {
+  .address-compound {
+    display: flex;
+    width: 89%;
     margin: auto;
   }
+
+  .lines {
+    left: 310px;
+  }
+
+  .address-btn {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .address-compound {
+    width: 96%;
+  }
+
+  .lines {
+    width: 68%;
+    left: 213px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .address-compound {
+    width: 99%;
+  }
+
+  .address-header {
+    font-size: 22px;
+  }
+
+  .lines {
+    display: none;
+  }
+
+  .divider {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .address-compound {
+    flex-direction: column;
+    width: 110%;
+    margin-left: -90px;
+  }
+
+  .address-detail {
+    width: 120%;
+    margin-bottom: 35px;
+  }
+
+  .icon-container {
+    margin-left: 463px;
+  }
+
+  .divider {
+    position: absolute;
+    top: 1020px;
+    left: 59px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .address-compound {
+    flex-direction: column;
+    margin-left: -60px;
+  }
+
+  .address-component {
+    width: 81%;
+  }
+
+  .address-detail {
+    width: 108%;
+    margin-bottom: 44px;
+  }
+
+  .icon-container {
+    margin-left: 432px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .address-compound {
+    flex-direction: column;
+  }
+
+  .address-component {
+    width: 79%;
+  }
+
+  .address-content {
+    width: 102%;
+  }
+
+  .lines {
+    width: 100%;
+    left: 2px;
+    top: 103%;
+    transform: rotate(0deg);
+  }
+
+  .divider {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .address-component {
+    width: 96%;
+  }
+
+  .address-header {
+    width: 126%;
+  }
+
+  .address-compound {
+    margin-left: 0;
+  }
+
+  .address-content {
+    flex-direction: column;
+    gap: 20px;
+    width: 88%;
+  }
+
+  .address-icon {
+    display: none;
+  }
+
+  .address-detail {
+    width: 90%;
+    margin-bottom: 48px;
+  }
+  .icon-container {
+    margin-left: 159px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .address-header {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .address-header {
+    width: 87%;
+  }
+
+  .address-content {
+    width: 87%;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .address-compound {
+    width: 110%;
+    margin-left: -3px;
+  }
+
+  .address-header {
+    width: 87%;
+  }
+
+  .address-detail {
+    width: 92%;
+  }
+}

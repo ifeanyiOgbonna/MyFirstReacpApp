@@ -34,6 +34,8 @@
 
 .header-icons {
   margin-left: -40px;
+  font-size: 20px;
+  color: black;
 }
 
 .cart-header {
@@ -68,6 +70,7 @@
   left: 179%;
   right: 3.34%;
   top: 3.33%;
+  font-size: 20px;
   bottom: 3.33%;
 }
 
@@ -111,7 +114,7 @@
   border-radius: 4px;
 }
 
-.rater {
+.closePrice {
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
@@ -139,11 +142,6 @@
   width: 528px;
   height: 566px;
   margin: auto;
-}
-
-.price-container img {
-  width: 38.61px;
-  height: 38.71px;
 }
 
 .price-component {
@@ -193,11 +191,13 @@
   margin-bottom: 40px;
 }
 
-.cart-info label {
+.cart-info button {
   position: absolute;
   left: 469px;
   top: 12px;
-  font-family: "Poppins";
+  border: none;
+  cursor: pointer;
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -213,32 +213,246 @@
   margin-bottom: 32px;
 }
 
-.order-component {
-  display: flex;
-  align-items: center;
-  position: relative;
+@media screen and (max-width: 1440px) {
+  .cart-compound {
+    width: 85%;
+  }
+
+  .line {
+    left: 384px;
+  }
 }
 
-.order-btn {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  border: none;
-  padding: 12px 97px;
-  width: 528px;
-  height: 48px;
+@media screen and (max-width: 1280px) {
+  .cart-compound {
+    width: 92%;
+  }
 
-  border-radius: 8px;
-  background: #2d2d2d;
+  .line {
+    width: 51%;
+    left: 308px;
+  }
 }
 
-.btn-link {
-  text-decoration: none;
-  color: #ffffff;
+@media screen and (max-width: 1024px) {
+  .header-icons {
+    margin-left: -8px;
+  }
+  .cart-compound {
+    width: 98%;
+    gap: 53px;
+    margin: auto;
+    margin-top: 64px;
+  }
+
+  .cart-component {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 11px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .price-container input {
+    width: 410px;
+  }
+
+  .price-container {
+    width: 40%;
+  }
+
+  .price-component {
+    width: 103%;
+  }
+
+  .price-content {
+    font-size: 15px;
+  }
+
+  .cart-info label {
+    left: 360px;
+  }
 }
-.order-container img {
-  position: absolute;
-  right: 198px;
-  width: 18px;
-  height: 7.5px;
+
+@media screen and (max-width: 834px) {
+  .cart-compound {
+    flex-direction: column;
+  }
+
+  .cart-container {
+    width: 90%;
+  }
+
+  .cart-content {
+    width: 99%;
+  }
+
+  .totalIcon {
+    left: 275%;
+  }
+
+  .price-container {
+    width: 90%;
+  }
+
+  .price-container input {
+    width: 99%;
+  }
+
+  .cart-info label {
+    left: 614px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cart-compound {
+    flex-direction: column;
+    width: 107%;
+  }
+
+  .cart-container {
+    width: 90%;
+  }
+  .cart-content {
+    width: 94%;
+  }
+
+  .totalIcon {
+    left: 282%;
+  }
+
+  .price-container {
+    margin-top: 50px;
+    width: 81%;
+    gap: 90px;
+    margin-left: 50px;
+  }
+
+  .price-container input {
+    width: 104%;
+  }
+
+  .cart-info label {
+    left: 614px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .totalIcon {
+    left: 262%;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .cart-compound {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+  }
+
+  .line {
+    margin: 2px;
+    left: 20px;
+    top: 744px;
+    transform: rotate(0deg);
+  }
+
+  .price-container {
+    width: 79%;
+  }
+
+  .price-container input {
+    width: 540px;
+  }
+
+  .cart-info label {
+    left: 460px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 96%;
+  }
+
+  .cart-content {
+    width: 112%;
+  }
+
+  .totalIcon {
+    left: 100%;
+  }
+
+  .price-container {
+    width: 93%;
+    margin-left: 11px;
+  }
+
+  .price-content {
+    font-size: 13px;
+  }
+
+  .price-container input {
+    width: 102%;
+  }
+
+  .cart-info label {
+    left: 299px;
+  }
+
+  .price-detail-component {
+    width: 130%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .cart-content {
+    width: 100%;
+    gap: 31px
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cart-content {
+    width: 106%;
+  }
+  .price-container input {
+    width: 100%;
+  }
+
+  .price-detail-component {
+    width: 122%;
+  }
+  .cart-content {
+    width: 100%;
+    gap: 17px
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .price-container {
+    width: 99%;
+    margin-left: 2px;
+  }
+
+  .cart-content {
+    width: 102%;
+}
+
+}
+
+
+@media screen and (max-width: 360px){
+  .cart-content {
+    width: 110%;
+    gap: 26px;
+}
 }

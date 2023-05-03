@@ -10,7 +10,7 @@
 .header-component {
   position: absolute;
   top: 199px;
-  left: 350px;
+  left: 320px;
 }
 
 .main-des {
@@ -29,6 +29,10 @@
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.home-info{
+  text-decoration: none;
 }
 
 .container-content {
@@ -59,6 +63,9 @@
   gap: 32px;
   position: relative;
 }
+.photo-detail {
+  position: relative;
+}
 
 .schedule {
   position: relative;
@@ -83,4 +90,171 @@
   position: absolute;
   top: 24px;
   left: 24px;
+}
+
+@media screen and (max-width: 1440px) {
+  .header-component {
+    left: 76px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container-home {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .header-component {
+    left: 15px;
+  }
+
+  .container-content {
+    width: 59%;
+  }
+
+  .container-detail {
+    gap: 50px;
+  }
+
+  .photo-detail {
+    width: 44%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container-home {
+    width: 100%;
+    gap: 3px;
+  }
+
+  .header-component {
+    left: 15px;
+  }
+  .container-content {
+    width: 56%;
+  }
+  .container-detail {
+    gap: 1px;
+  }
+
+  .goat-img {
+    width: 90%;
+  }
+  .photo-img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .container-home {
+    flex-direction: column;
+    margin-left: -143px;
+  }
+
+  .container-content {
+    width: 101%;
+    margin: auto;
+    margin-left: 134px;
+  }
+  .goat-img {
+    width: 159%;
+  }
+  .photo-img {
+    width: 90%;
+  }
+
+  .container-detail {
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container-home {
+    flex-direction: column;
+    margin-left: -133px;
+  }
+
+  .container-content {
+    width: 100%;
+    margin: auto;
+    margin-left: 134px;
+  }
+
+  .goat-img {
+    width: 153%;
+  }
+
+  .header-component {
+    left: 15px;
+  }
+
+  .container-detail {
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .container-home {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .header-component {
+    left: 15px;
+    top: 150px;
+  }
+
+  .photo-img {
+    width: 100%;
+  }
+
+  .container-detail {
+    display: flex;
+    gap: 20px;
+  }
+
+  .container-content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header-component {
+    position: absolute;
+    top: 129px;
+    left: 30px;
+  }
+
+  .container-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  .goat-img {
+    width: 81%;
+  }
+
+  .photo-img {
+    width: 100%;
+  }
+
+  .container-content {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container-detail {
+    width: 108%;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .container-content {
+    margin-left: 6px;
+  }
 }

@@ -4,9 +4,8 @@ import "../styles/Address.css"
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import AddressStore from '../component/AddressStore';
 import Products from '../component/Products';
-import { Link } from 'react-router-dom';
-import Arrow from "../images/arrow.png"
-
+import { Button } from "../component/Button";
+import { Link } from "react-router-dom";
 
 
 
@@ -17,7 +16,9 @@ function Address() {
       <div className='address-compound'>
         <div className='address-component'>
           <div className='address-content'>
-            <AiOutlineArrowLeft className='address-icon' />
+            <Link to="/cart" className='address-icon'>
+              <AiOutlineArrowLeft />
+            </Link>
             <h1 className='address-header'>SELECT DELIVERY ADDRESS</h1>
             <button className='address-btn'>ADD NEW ADDRESS</button>
           </div>
@@ -39,14 +40,8 @@ function Address() {
             <Products priceDetailRate={"Rs. 5,598"} priceDetailRates={"-Rs. 809"} priceDetailPrice={"Rs. 0"}
               priceDetailRat={"Free"} priceDetailSet={"Rs. 4,789"} />
           </div>
-          <div className='order-container'>
-            <div className='order-component'>
-              <button className='order-btn'>
-                <Link to="/Payment" className='btn-link'>Continue</Link>
-              </button>
-              <img src={Arrow} alt="icon" />
-            </div>
-          </div>
+          <Button text="Continue" Link="/Payment" />
+
         </div>
       </div>
     </div>

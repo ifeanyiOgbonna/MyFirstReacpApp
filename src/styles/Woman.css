@@ -40,3 +40,68 @@
   width: 20px;
   height: 20px;
 }
+
+@media screen and (max-width: 1440px) {
+  .all-container {
+    width: 90%;
+  }
+
+  .women-category {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .all-container {
+    width: 90%;
+  }
+
+  .women-category {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .all-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .all-container {
+    width: 95%;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .all-container {
+    width: 69%;
+    gap: 42px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .all-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .all-container {
+    grid-template-columns: 1fr;
+    width: 50%;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .all-container {
+    width: 67%;
+  }
+}

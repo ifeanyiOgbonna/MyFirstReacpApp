@@ -23,7 +23,7 @@
   width: 904px;
   height: 544px;
 
-  top: 431px;
+  top: 463px;
   left: 1px;
 }
 
@@ -66,19 +66,23 @@
 
 form input::placeholder {
   position: relative;
-  font-family: "Poppins";
+  font-family: "Poppins", 'Courier New', Courier, monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #737373;
 }
+.section-form {
+  position: relative;
+}
 
 .icons {
   position: absolute;
-  left: 330px;
-  top: 150px;
+  right: 10px;
+  top: 94px;
   color: #737373;
+  cursor: pointer;
 }
 
 .form-sub {
@@ -100,7 +104,7 @@ form input::placeholder {
 }
 
 .title-box label {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -112,7 +116,7 @@ form input::placeholder {
 }
 
 .description {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -131,8 +135,9 @@ form input::placeholder {
   flex: none;
   background: #2d2d2d;
   border-radius: 8px;
+  cursor: pointer;
 
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -156,17 +161,18 @@ form input::placeholder {
 }
 
 .component .detail {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #737373;
+  width: 236px;
 }
 
 .component .detail span {
   color: #db6b97;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -178,10 +184,9 @@ form input::placeholder {
   text-decoration: none;
 }
 
-
 .compound-title {
   position: relative;
-  background-color:#db6b97;
+  background-color: #db6b97;
   width: 40px;
   height: 20px;
   border-radius: 38.5px;
@@ -211,4 +216,240 @@ form input::placeholder {
 
 .compound-title input {
   display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 50%;
+    height: 112vh;
+  }
+
+  .background-img {
+    width: 55%;
+  }
+
+  .main {
+    width: 37%;
+    left: 894px;
+  }
+
+  .main form {
+    gap: 34px;
+    width: 99%;
+  }
+
+  .icons {
+    right: 20px;
+    top: 104px;
+  }
+
+  .form-sub {
+    gap: 272px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .box {
+    margin-top: 1px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 54%;
+  }
+
+  .background-img {
+    position: absolute;
+    width: 59%;
+    height: 401px;
+    top: 494px;
+  }
+
+  .main {
+    width: 42%;
+    left: 728px;
+    top: 296px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    background: #db6b97;
+    width: 54%;
+    height: 100vh;
+  }
+
+  .background-img {
+    position: absolute;
+    width: 59%;
+    height: 457px;
+    top: 343px;
+    left: 1px;
+  }
+
+  .main {
+    width: 40%;
+    left: 601px;
+  }
+  .form-sub {
+    gap: 91px;
+  }
+
+  .title-box label {
+    font-size: 13px;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .box {
+    margin-top: 9px;
+  }
+
+  .icons {
+    left: 375px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .logo-img {
+    background-color: #db6b97;
+    border-radius: 50px;
+  }
+
+  .background-img {
+    display: none;
+  }
+
+  .container {
+    margin: auto;
+    background-color: white;
+  }
+
+  .main {
+    width: 80%;
+    left: 10%;
+  }
+
+  .icons {
+    left: 615px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    background-color: white;
+  }
+
+  .logo-img {
+    background-color: #db6b97;
+    border-radius: 50px;
+  }
+
+  .background-img {
+    display: none;
+  }
+
+  .main {
+    width: 90%;
+    left: 30px;
+  }
+
+  .icons {
+    left: 650px;
+  }
+
+  .form-sub {
+    gap: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-sub {
+    gap: 412px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .logo-img {
+    background-color: #db6b97;
+    border-radius: 50px;
+  }
+
+  .background-img {
+    display: none;
+  }
+
+  .container {
+    margin: auto;
+    background-color: white;
+  }
+
+  .main {
+    width: 80%;
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .main {
+    left: 9%;
+    width: 90%;
+  }
+
+  .icons {
+    left: 328px;
+  }
+
+  .form-sub {
+    gap: 107px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .main {
+    left: 2%;
+    width: 99%;
+  }
+
+  .icons {
+    left: 349px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .form-sub {
+    gap: 94px;
+  }
+
+  .icons {
+    left: 320px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .form-sub {
+    gap: 80px;
+  }
+  .icons {
+    left: 320px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .icons {
+    left: 305px;
+  }
+
+  .form-sub {
+    gap: 64px;
+  }
 }

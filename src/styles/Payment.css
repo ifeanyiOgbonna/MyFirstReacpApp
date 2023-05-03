@@ -1,12 +1,12 @@
 .payment-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 70%;
-    gap: 196px;
-    margin: auto;
-    margin-top: 64px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  gap: 196px;
+  margin: auto;
+  margin-top: 64px;
+}
 
 .payment-component ul {
   display: flex;
@@ -14,8 +14,8 @@
   gap: 24px;
 }
 
-.ul-container{
-    margin-left: 20px;
+.ul-container {
+  margin-left: 20px;
 }
 
 .payment-component ul li {
@@ -47,9 +47,9 @@
 }
 
 .visa {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .form-fill {
@@ -69,31 +69,241 @@
 }
 
 .logos {
-    margin: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .line-divider {
-    position: absolute;
-    width: 720px;
-    height: 0px;
-    left: 562px;
-    top: 549px;
-    border: 1px solid #d2d2d2;
-    transform: rotate(90deg);
+  position: absolute;
+  width: 720px;
+  height: 0px;
+  left: 562px;
+  top: 549px;
+  border: 1px solid #d2d2d2;
+  transform: rotate(90deg);
 }
 
-.payment-sum {
-    display: flex;
-    align-items: center;
-    position: relative;
+@media screen and (max-width: 1440px) {
+  .payment-container {
+    width: 89%;
   }
 
-.payment-sum img {
-    position: absolute;
-    right: 158px;
-    width: 18px;
-    height: 7.5px;
+  .line-divider {
+    left: 362px;
   }
+}
+
+@media screen and (max-width: 1280px) {
+  .payment-container {
+    width: 96%;
+    gap: 129px;
+  }
+
+  .line-divider {
+    width: 59%;
+    left: 273px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .payment-container {
+    width: 102%;
+    gap: 35px;
+    margin-top: 47px;
+  }
+
+  .address-content {
+    margin-bottom: 24px;
+  }
+
+  .line-divider {
+    display: none;
+  }
+
+  .divider {
+    width: 38%;
+  }
+  .arrow {
+    right: 89px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .payment-container {
+    flex-direction: column;
+    width: 20%;
+    margin-left: 29%;
+  }
+
+  .address-content {
+    width: 117%;
+  }
+
+  .payment-component ul li {
+    width: 139%;
+    margin-left: 0;
+  }
+
+  .address-content {
+    margin-bottom: 44px;
+  }
+
+  .payment-form {
+    width: 139%;
+  }
+
+  .form-fill {
+    width: 98%;
+  }
+
+  .logos {
+    gap: 90px;
+  }
+
+  .divider {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .payment-container {
+    flex-direction: column;
+    margin-top: 74px;
+    width: 31%;
+  }
+
+  .payment-component ul li {
+    width: 110%;
+    gap: 38px;
+  }
+
+  .payment-form {
+    width: 109%;
+  }
+
+  .logos {
+    gap: 109px;
+    justify-content: center;
+  }
+
+  .divider {
+    justify-content: center;
+    width: 86%;
+    margin-left: -12px;
+    margin-top: 73px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ul-container {
+    margin-left: -58px;
+  }
+
+  .payment-component ul li {
+    width: 108%;
+    gap: 38px;
+  }
+
+  .divider {
+    margin-left: 50px;
+  }
+
+  .form-fill {
+    width: 99%;
+  }
+
+  .address-content {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .payment-container {
+    display: flex;
+    flex-direction: column;
+    width: 79%;
+  }
+
+  .line-divider {
+    width: 100%;
+    left: 2px;
+    top: 949px;
+    transform: rotate(0deg);
+  }
+
+  .divider {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .payment-form {
+    width: 79%;
+    margin-left: -40px;
+  }
+
+  .payment-container {
+    width: 99%;
+  }
+
+  .form-fill {
+    width: 100%;
+    margin: auto;
+  }
+
+  .logos {
+    gap: 50px;
+    justify-content: center;
+    width: 24%;
+  }
+
+  .divider {
+    width: 93%;
+    margin-top: 172px;
+    margin-left: -54px;
+  }
+
+  .payment-component ul li {
+    width: 79%;
+    margin-left: -38px;
+  }
+
+  .price-detail-compound {
+    width: 79%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .divider {
+    margin-top: 218px;
+  }
+
+  .logos {
+    width: 54%;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .payment-component ul {
+    width: 115%;
+    margin-left: 10px;
+  }
+  .payment-container {
+    width: 68%;
+  }
+
+  .logos {
+    gap: 36px;
+    margin-bottom: 190px;
+    width: 49%;
+  }
+
+  .divider {
+    /* width: 93%; */
+    margin-top: 102px;
+    margin-left: -49px;
+  }
+}

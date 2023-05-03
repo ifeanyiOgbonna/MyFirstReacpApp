@@ -6,6 +6,7 @@ import Image from "../images/image 6.png"
 import { BsArrowRight } from "react-icons/bs"
 import Image2 from "../images/image 10.png"
 import Image3 from "../images/image 9.png"
+import { Link } from "react-router-dom"
 
 function Home() {
     return (
@@ -13,45 +14,46 @@ function Home() {
             <Header />
             <div className='container-home'>
                 <div className='main-home'>
-                    <img src={data} alt="goat" />
+                    <img src={data} alt="goat" className='goat-img' />
                     <div className='header-component'>
-                        <p className='main-des'>Brands Everyone’s Crushing on</p>
-                        <h1 className='home-header'>Explore All<BsArrowRight className='header-icon' /></h1>
+                        <Link to="/" className='home-info'>
+                            <p className='main-des'>Brands Everyone’s Crushing on</p>
+                            <h1 className='home-header'>Explore All<BsArrowRight className='header-icon' /></h1>
+                        </Link>
+
                     </div>
                 </div>
 
                 <div className='container-content'>
                     <img src={Image} alt="pictures" />
                     <div className='content-schedules'>
-                        <p className='main-desc'>456 items</p>
-                        <h1 className='home-header'>Footwear<BsArrowRight className='header-icon' /></h1>
+                        <Link to="/" className='home-info'>
+                            <p className='main-desc'>456 items</p>
+                            <h1 className='home-header'>Footwear<BsArrowRight className='header-icon' /></h1>
+                        </Link>
                     </div>
 
                     <div className='container-detail'>
-                        <div style={{position: "relative"}}>
-                            <img src={Image2} alt="photos" />
+                        <div className='photo-detail'>
+                            <img src={Image2} alt="photos" className='photo-img' />
                             <div className='detail-concept'>
-                                <p className='mine'>680 items</p>
-                                <h1 className='home-header'>Sweaters<BsArrowRight className='header-icon' /></h1>
+                                <Link to="/" className='home-info'>
+                                    <p className='mine'>680 items</p>
+                                    <h1 className='home-header'>Sweaters<BsArrowRight className='header-icon' /></h1>
+                                </Link>
                             </div>
 
                         </div>
-                        <div style={{position: "relative"}}>
-                            <img src={Image3} alt="photos" />
+                        <div className='photo-detail'>
+                            <img src={Image3} alt="photos" className='photo-img' />
                             <div className='detail-concept'>
-                                <p className='mine'>341 items</p>
-                                <h1 className='home-header'>Demnis<BsArrowRight className='header-icon' /></h1>
+                                <Link to="/" className='home-info'>
+                                    <p className='mine'>341 items</p>
+                                    <h1 className='home-header'>Demnis<BsArrowRight className='header-icon' /></h1>
+                                </Link>
                             </div>
 
                         </div>
-
-                        {/* <img src={Image3} alt="phot" />
-                        <div className='schedule'>
-                            <div className='schedule-component'>
-                                <p className='mine'>341 items</p>
-                                <h1 className='home-header'>Demnis<BsArrowRight className='header-icon' /></h1>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
